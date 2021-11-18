@@ -1,5 +1,9 @@
 .App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   text-align: center;
+  background-color: #babbbd;
 }
 
 .App-logo {
@@ -35,4 +39,14 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.topButtons {
+  display: flex;
+  justify-content: center;
+  width: 70%;
+}
+
+.topButtons button{
+  padding: 10px;
 }
